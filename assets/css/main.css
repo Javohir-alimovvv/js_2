@@ -52,12 +52,31 @@
   cursor: pointer;
 }
 
+.btn_2 {
+  border: transparent;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
 .menyu {
   font-size: 32px;
   color: black;
   font-weight: 900;
 }
 .menyu:hover {
+  color: blue;
+}
+
+.menyu_2 {
+  font-size: 32px;
+  color: black;
+  font-weight: 900;
+}
+.menyu_2:hover {
   color: blue;
 }
 

@@ -20,19 +20,20 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    // gap: 25px;
     display: none;
 }
-.box{
+
+.box {
     width: 100px;
     height: 70px;
-    // background: gold;
     display: flex;
     align-items: center;
     justify-content: center;
-    &:hover{
+
+    &:hover {
         border-left: 4px solid white;
-        .fonts{
+
+        .fonts {
             color: dodgerblue;
         }
     }
@@ -42,7 +43,7 @@
     font-size: 24px;
     color: white;
     font-weight: 900;
-   
+
 }
 
 .btn {
@@ -54,12 +55,35 @@
     cursor: pointer;
 }
 
+.btn_2 {
+    border: transparent;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: none;
+    cursor: pointer;
+    display: none;
+}
+
 .menyu {
     font-size: 32px;
     color: black;
-    &:hover{
+
+    &:hover {
         color: blue;
     }
+
+    font-weight: 900;
+}
+
+.menyu_2 {
+    font-size: 32px;
+    color: black;
+
+    &:hover {
+        color: blue;
+    }
+
     font-weight: 900;
 }
 
